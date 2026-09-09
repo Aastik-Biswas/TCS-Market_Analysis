@@ -43,7 +43,6 @@ The project:
 - Daily number of trades
 - Number of active series
 - Weighted average SLB price
-- 7-day moving averages
 - Highest-volume trading days
 - Highest-value trading days
 - Correlation between market activity measures
@@ -56,24 +55,3 @@ Weighted Average Price = Total Traded Value / Total Traded Quantity
 
 This gives a simple daily measure of the average traded SLB price across active series.
 
-## How to Run in Google Colab
-1. Upload `TCS_SLB_Market_Analysis.ipynb`.
-2. Run the notebook from the first cell.
-3. When prompted, upload `Quote-SLB-TCS-EQ-9-03-2026-to-9-09-2026.csv`.
-4. Run all cells in order.
-
-## Skills Demonstrated
-- Financial data cleaning
-- Time-series data handling
-- Pandas groupby and aggregation
-- NumPy calculations
-- Market activity analysis
-- Moving averages
-- Correlation analysis
-- Financial data visualization with Matplotlib
-
-## Future Improvements
-- Add cash-market TCS share-price data.
-- Compare SLB activity with TCS price movements.
-- Compare SLB activity across multiple companies.
-- Analyze individual settlement series in more detail.

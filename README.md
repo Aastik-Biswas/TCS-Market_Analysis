@@ -5,9 +5,6 @@ This is a finance-focused exploratory data analysis project using historical TCS
 
 The project performs data cleaning, transformation, aggregation and visualization. No machine-learning model is used.
 
-## Important Note
-The source file contains SLB market data rather than normal TCS cash-market share-price history. Multiple SLB settlement series can be traded on the same date, so the project aggregates activity at the daily level where appropriate.
-
 ## Tools Used
 - Python
 - Pandas
